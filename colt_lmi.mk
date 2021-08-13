@@ -8,7 +8,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common aosip stuff
+# Inherit some common ColtOS stuff
 $(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
 # Inherit from lmi device
@@ -25,6 +25,9 @@ TARGET_FACE_UNLOCK := true
 
 TARGET_BOOT_ANIMATION_RES := 1080
 EXTRA_FOD_ANIMATIONS := true
+
+# Mantainer
+COLT_BUILD_MAINTAINER := NotZeetaa
 
 # Gapps
 TARGET_GAPPS_ARCH := arm64
