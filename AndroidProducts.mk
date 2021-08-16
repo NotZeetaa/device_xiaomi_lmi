@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/wave_lmi.mk
+    $(LOCAL_DIR)/syberia_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    wave_lmi-user \
-    wave_lmi-userdebug \
-    wave_lmi-eng
+    syberia_lmi-user \
+    syberia_lmi-userdebug \
+    syberia_lmi-eng
