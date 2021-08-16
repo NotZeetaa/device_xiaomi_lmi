@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_lmi.mk
+    $(LOCAL_DIR)/wave_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_lmi-user \
-    aosip_lmi-userdebug \
-    aosip_lmi-eng
+    wave_lmi-user \
+    wave_lmi-userdebug \
+    wave_lmi-eng
