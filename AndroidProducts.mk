@@ -10,4 +10,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     exthm_lmi-user \
     exthm_lmi-userdebug \
-    exhtm_lmi-eng
+    exthm_lmi-eng
