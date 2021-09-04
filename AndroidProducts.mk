@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/exthm_lmi.mk
+    $(LOCAL_DIR)/aosp_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    exthm_lmi-user \
-    exthm_lmi-userdebug \
-    exthm_lmi-eng
+    aosp_lmi-user \
+    aosp_lmi-userdebug \
+    aosp_lmi-eng
