@@ -8,16 +8,16 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common exthm stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common ShapeShiftOs stuff
+$(call inherit-product, vendor/ssos/config/common_full_phone.mk)
 
 # Inherit from lmi device
 $(call inherit-product, device/xiaomi/lmi/device.mk)
 
 # Derp specific properties
 PRODUCT_PRODUCT_PROPERTIES += \
-  ro.derp.maintainer=Schnedi \
-  ro.derp.cpu=sm8250 \
+  ro.ssos.maintainer=NotZeetaa \
+  ro.ssos.cpu=sm8250 \
   ro.derp.rom=Derp
 
 # Face Unlock
@@ -30,7 +30,7 @@ EXTRA_FOD_ANIMATIONS := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
 
-PRODUCT_NAME := aosp_lmi
+PRODUCT_NAME := ssos_lmi
 PRODUCT_DEVICE := lmi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
