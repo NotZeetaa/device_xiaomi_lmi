@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_lmi.mk
+    $(LOCAL_DIR)/xtended_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_lmi-user \
-    ssos_lmi-userdebug \
-    ssos_lmi-eng
+    xtended_lmi-user \
+    xtended_lmi-userdebug \
+    xtended_lmi-eng
